@@ -164,6 +164,10 @@ header div ul .accueil{
     justify-content: space-between;
     align-items: center;
 }
+.valeurs .valeurs-container div p span{
+    font-size: 1.9rem;
+    color: rgba(158, 158, 56, 0.733);
+}
 .valeurs .valeurs-container div p img{
     width: 500px;
 }
