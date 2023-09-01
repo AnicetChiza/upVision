@@ -164,8 +164,13 @@ header div ul .accueil{
     justify-content: space-between;
     align-items: center;
 }
-.valeurs .valeurs-container div p span{
+.valeurs .valeurs-container div p{
+    font-style: italic;
+    font-weight: bolder;
+}
+.valeurs .valeurs-container div p i{
     font-size: 1.9rem;
+    font-style: italic;
     color: rgba(158, 158, 56, 0.733);
 }
 .valeurs .valeurs-container div p img{
