@@ -40,7 +40,6 @@ header{
     top: 0;
     box-shadow:  0px 0px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: white;
-    /*background-color: rgba(255, 255, 255, 0.199);*/
 }
 header div p img{
     width: 60px;
@@ -56,6 +55,7 @@ header div ul{
 }
 header div ul li:hover{
     font-weight: bolder;
+    transition: 2s ease;
     color: rgba(158, 158, 56, 0.733);
 }
 header div ul .accueil{
@@ -175,4 +175,81 @@ header div ul .accueil{
 }
 .valeurs .valeurs-container div p img{
     width: 500px;
+}
+/********************NEW LIFE**********************/
+.newlife{
+    padding: 20px;
+}
+.newlife h3{
+    color: rgba(158, 158, 56, 0.733);
+    margin-bottom: 10px;
+}
+.newlife h5{
+    width: 100px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+}
+.newlife-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.newlife-container div{
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.newlife-container div i{
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: rgba(158, 158, 56, 0.733);
+}
+.newlife-container div h4{
+    color: rgba(158, 158, 56, 0.733);
+}
+/********************NOS SERVICES**********************/
+.services{
+    padding: 20px;
+}
+.services h3{
+    color: rgba(158, 158, 56, 0.733);
+    margin-top: 10px;
+}
+.services h5{
+    width: 70px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+}
+.service-containt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image-service{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.service-subcontaint{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.service-subcontaint h4{
+    margin-bottom: 5px;
+    color: rgba(158, 158, 56, 0.733);
+}
+.service-subcontaint a{
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: bolder;
+    background-color: white;
+    color: rgba(158, 158, 56, 0.733);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
