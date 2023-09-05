@@ -5,4 +5,4 @@ scroll.addEventListener('click', () =>{
         left: 0,
         behavior: "smooth",
     })
-})
+});
