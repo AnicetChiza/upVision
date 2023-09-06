@@ -57,7 +57,7 @@ header div p{
     cursor: pointer;
     color: rgba(158, 158, 56, 0.733);
 }
-header div ul{
+header div .list{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,14 +65,43 @@ header div ul{
     gap: 40px;
     cursor: pointer;
 }
-header div ul li a:hover{
+header div .list li a:hover{
     font-weight: bolder;
     transition: 2s ease;
     color: rgba(158, 158, 56, 0.733);
 }
-header div ul .accueil{
+header div .list .accueil{
     color: black;
     border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+}
+.menu{
+    display: none;
+}
+.menu i{
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(158, 158, 56, 0.267);
+}
+.menu-container{
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 60%;
+    height: 285px;
+    margin-right: 200%;
+    background-color: white;
+    transition: 0.9s ease-out;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.menu-container ul{
+    text-align: center;
+}
+.menu-container ul li{
+    padding: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.menu-container ul li a{
+    color: rgba(158, 158, 56, 0.733);
 }
 /********************COVER PAGE**********************/
 .cover-page{
@@ -88,7 +117,7 @@ header div ul .accueil{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding: 20px;
     color: white;
     background-color: rgba(0, 0, 0, 0.726);
 }
@@ -237,7 +266,7 @@ header div ul .accueil{
 /********************CONTACTS**********************/
 .Contacts{
     padding: 20px;
-    width: 700px;
+    width: 70%;
     margin: auto;
 }
 .Contacts h3{
@@ -249,17 +278,16 @@ header div ul .accueil{
     background-color: rgba(158, 158, 56, 0.733);
 }
 form .form-container{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 20px;
 }
 form .form-container div{
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
 }
 form .form-container div input{
-    width: 320px;
+    width: 100%;
     border: none;
     outline: none;
     padding: 10px;
@@ -294,6 +322,7 @@ button{
 .newlife-container{
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 15px;
     gap: 20px;
 }
 .newlife-container div{
@@ -315,7 +344,6 @@ button{
 /********************SUGGESTIONS**********************/
 .suggestions{
     padding: 20px;
-    padding-bottom: 70px;
     width: 70%;
     margin: auto;
 }
@@ -352,7 +380,6 @@ button{
     font-family: 'SulphurPoint-Light';
 }
 .suggestions .suggestions-container form button{
-    float: right;
     width: fit-content;
     border-radius: 5px;
 }
@@ -429,4 +456,132 @@ footer .top{
     gap: 5px;
     color: rgba(158, 158, 56, 0.733);
     background-color: white;
+}
+/**********************************************/
+/*****************MEDIA QUERY******************/
+/**********************************************/
+@media  screen and (max-width: 930px){
+    .about-us .content{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .about-us .content div p img{
+        width: 100%;
+    }
+    .valeurs{
+        padding: 0;
+    }
+    .valeurs h3, .valeurs-container div p{
+        padding: 20px;
+    }
+    .valeurs h4{
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    .valeurs .valeurs-container div p img{
+        display: none;
+    }
+    .valeurs .valeurs-container{
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('../Images/vision.png');
+    }
+}
+@media  screen and (max-width: 750px){
+    .service-containt{
+        grid-template-columns: 1fr;
+    }
+    .image-service{
+        width: 100px;
+        height: 100px;
+    }
+    footer .footer-container{
+        gap: 30px;
+        grid-template-columns: auto auto;
+    }
+    .Contacts{
+        width: 100%;
+    }
+    .Contacts h3{
+        padding: 8px 15px;
+    }
+    .suggestions{
+        width: 100%;
+    }
+    .choisir .choisir-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width: 740px){
+    header div .list{
+        display: none;
+    }
+    .menu{
+        display: initial;
+    }
+    .menu-icons .icon{
+        display: block;
+    }
+    .menu-icons .exit{
+        display: none;
+    }
+    .menu-mobile .icon{
+        display: none;
+    }
+    .menu-mobile .exit{
+        display: initial;
+    }
+    .menu-mobile{
+        margin-right: 0;
+    }
+}
+@media  screen and (max-width: 620px){
+    .newlife-container{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media  screen and (max-width: 515px){
+    form .form-container, .suggestions .suggestions-container form div{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .project{
+        font-size: 18px;
+    }
+    footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media  screen and (max-width: 420px){
+    .menu-container{
+        width: 70%;
+        top: 54px;
+    }
+    footer .footer-container{
+        gap: 30px;
+        grid-template-columns: auto;
+    }
+    .entete{
+        padding-left: 5px;
+    }
+    header div p{
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    header div ul{
+        padding-right: 5px;
+    }
+    .cover-page .container, .about-us, .choisir, .services, .suggestions, .Contacts, .newlife, .project{
+        padding: 15px;
+    }
 }
