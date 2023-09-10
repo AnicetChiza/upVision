@@ -89,3 +89,51 @@ header div .list .service{
 .menu-container ul li a{
     color: rgba(158, 158, 56, 0.733);
 }
+/**************COVER PAGE****************/
+.cover-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../Images/fournitures-scolaires.jpeg');
+}
+.cover-page div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/**************SECTION****************/
+section{
+    width: 70%;
+    margin: auto;
+}
+/**************PAPETERIE CONTAINER****************/
+.papeterie-container{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(158, 158, 56, 0.733);
+}
+.papeterie-container h3{
+    margin-bottom: 15px;
+}
+.papeterie-container p{
+    margin-top: 15px;
+}
+.papeterie-container button{
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    font-family: 'SulphurPoint-Light';
+    background-color: rgba(158, 158, 56, 0.733);
+}
