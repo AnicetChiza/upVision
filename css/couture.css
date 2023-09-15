@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'SulphurPoint-Light';
+    src: url('SulphurPoint-Light.ttf') format('truetype');
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.8rem;
+}
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'SulphurPoint-Light';
+    background-color: rgb(240, 240, 240);
+}
+/********************header**********************/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    background-color: white;
+    box-shadow: 0px 0.5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+header div p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    cursor: pointer;
+    color: rgba(158, 158, 56, 0.733);
+}
+header div .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    gap: 40px;
+    cursor: pointer;
+}
+header div .list li a:hover{
+    font-weight: bolder;
+    transition: 2s ease;
+    color: rgba(158, 158, 56, 0.733);
+}
+header div .list .service{
+    color: black;
+    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+}
+.menu{
+    display: none;
+}
+.menu i{
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(158, 158, 56, 0.267);
+}
+.menu-container{
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 60%;
+    height: 285px;
+    margin-right: 200%;
+    background-color: white;
+    transition: 0.9s ease-out;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.menu-container ul{
+    text-align: center;
+}
+.menu-container ul li{
+    padding: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.menu-container ul li a{
+    color: rgba(158, 158, 56, 0.733);
+}
