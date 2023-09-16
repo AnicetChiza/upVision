@@ -137,94 +137,7 @@ section{
     font-family: 'SulphurPoint-Light';
     background-color: rgba(158, 158, 56, 0.733);
 }
-/***************NOUS******************/
-.nous{
-    margin-top: 40px;
-}
-.nous h3{
-    color: rgba(158, 158, 56, 0.733);
-}
-.nous h4{
-    width: 45px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
-}
-.nous .nous-container{
-    display: grid;
-    grid-template-columns:  auto auto;
-    gap: 20px;
-}
-.nous .nous-container div{
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
-}
-.nous .nous-container div i{
-    padding: 10px;
-    color: white;
-    border-radius: 50%;
-    background-color: rgba(158, 158, 56, 0.733);
-}
-/***************FOOTER******************/
-footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: rgba(158, 158, 56, 0.267);
-}
-footer .footer-container{
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: auto auto auto auto;
-}
-footer .footer-container .up div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
-footer .footer-container .up div i{
-    color: rgba(158, 158, 56, 0.733);
-}
-footer .footer-container .up p, footer .footer-container .up a{
-    width: fit-content;
-    border-bottom: 1px solid black;
-}
-footer .footer-container .media i{
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    color: white;
-    background-color: rgba(158, 158, 56, 0.733);
-}
-footer .footer-container .media i:hover{
-    color: rgba(158, 158, 56, 0.733);
-    background-color: white;
-}
-footer .author, footer .author a{
-    margin-top: 25px;
-    font-weight: bolder;
-    font-size: 14px;
-    border-bottom: none;
-}
-footer .top{
-    position: fixed;
-    right: 0px;
-    bottom: 20px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 10px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    gap: 5px;
-    color: rgba(158, 158, 56, 0.733);
-    background-color: white;
-}
+
 /**********************************************/
 /*****************MEDIA QUERY******************/
 /**********************************************/
@@ -234,10 +147,6 @@ footer .top{
         margin-top: 0px;
         margin-bottom: 0px;
         padding: 30px;
-    }
-    footer .footer-container{
-        gap: 30px;
-        grid-template-columns: auto auto;
     }
 }
 @media  screen and (max-width: 740px){
@@ -280,16 +189,6 @@ footer .top{
     section{
         padding: 15px;
     }
-    .nous .nous-container{
-        display: grid;
-        grid-template-columns:  auto;
-    }
-    footer{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
 @media  screen and (max-width: 420px){
     header div p{
@@ -299,9 +198,5 @@ footer .top{
     .menu-container{
         width: 70%;
         top: 54px;
-    }
-    footer .footer-container{
-        gap: 30px;
-        grid-template-columns: auto;
     }
 }
