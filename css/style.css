@@ -32,7 +32,7 @@ body{
     gap: 5px;
     z-index: 10;
     width: 100%;
-    color: black;
+    color: rgba(6, 58, 65, 0.747);
     background-color: rgba(255, 253, 253, 0.712);
 }
 
@@ -55,7 +55,7 @@ header div p{
     font-weight: bolder;
     padding-left: 20px;
     cursor: pointer;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 header div .list{
     display: flex;
@@ -68,11 +68,11 @@ header div .list{
 header div .list li a:hover{
     font-weight: bolder;
     transition: 2s ease;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 header div .list .accueil{
     color: black;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .menu{
     display: none;
@@ -101,7 +101,7 @@ header div .list .accueil{
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .menu-container ul li a{
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 /********************COVER PAGE**********************/
 .cover-page{
@@ -123,14 +123,14 @@ header div .list .accueil{
 }
 .cover-page .container h2{
     margin-bottom: 20px;
-    color: rgba(158, 158, 56, 0.733);
+    color: white;
 }
 .cover-page .container h3{
     padding: 10px 20px;
     width: fit-content;
     border-radius: 25px;
     margin-top: 20px;
-    color: rgba(158, 158, 56, 0.733);
+    color: white;
     background-color: rgba(255, 255, 255, 0.199);
 }
 /********************ABOUT US**********************/
@@ -139,11 +139,11 @@ header div .list .accueil{
 }
 .about-us h3{
     margin-bottom: 10px;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 .about-us h4{
     width: 100px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .about-us .content{
     display: flex;
@@ -163,13 +163,13 @@ header div .list .accueil{
 }
 .choisir h3{
     margin-bottom: 10px;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 .choisir h4{
     width: 70px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .choisir .choisir-container{
     display: flex;
@@ -184,7 +184,7 @@ header div .list .accueil{
 }
 .choisir .choisir-container div p i{
     font-size: 1.5rem;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 /********************NOS VALEURS**********************/
 .valeurs{
@@ -192,13 +192,13 @@ header div .list .accueil{
 }
 .valeurs h3{
     margin-bottom: 10px;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 .valeurs h4{
     width: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .valeurs .valeurs-container{
     display: flex;
@@ -213,7 +213,7 @@ header div .list .accueil{
 .valeurs .valeurs-container div p i{
     font-size: 1.9rem;
     font-style: italic;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 .valeurs .valeurs-container div p img{
     width: 500px;
@@ -223,13 +223,13 @@ header div .list .accueil{
     padding: 20px;
 }
 .services h3{
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
     margin-top: 10px;
 }
 .services h5{
     width: 70px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .service-containt{
     display: grid;
@@ -260,8 +260,8 @@ header div .list .accueil{
     padding: 5px 10px;
     border-radius: 3px;
     font-weight: bolder;
-    background-color: rgba(158, 158, 56, 0.267);
-    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(6, 58, 65, 0.747);
+    color: white;
 }
 /********************CONTACTS**********************/
 .Contacts{
@@ -275,7 +275,7 @@ header div .list .accueil{
     margin-bottom: 10px;
     width: fit-content;
     border-radius: 8px;
-    background-color: rgba(158, 158, 56, 0.733);
+    background-color: rgba(6, 58, 65, 0.747);
 }
 form .form-container{
     display: grid;
@@ -292,7 +292,7 @@ form .form-container div input{
     outline: none;
     padding: 10px;
     font-family: 'SulphurPoint-Light';
-    box-shadow: 0px 0px 2px 0px rgba(158, 158, 56, 0.733);
+    box-shadow: 0px 0px 2px 0px rgba(6, 58, 65, 0.747);
 }
 button{
     width: 100%;
@@ -304,20 +304,20 @@ button{
     font-weight: bolder;
     font-family: 'SulphurPoint-Light';
     cursor: pointer;
-    background-color: rgba(158, 158, 56, 0.733);
+    background-color: rgba(6, 58, 65, 0.747);
 }
 /********************NEW LIFE**********************/
 .newlife{
     padding: 20px;
 }
 .newlife h3{
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
     margin-bottom: 10px;
 }
 .newlife h5{
     width: 100px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .newlife-container{
     display: grid;
@@ -336,7 +336,7 @@ button{
     padding: 10px;
     border-radius: 50%;
     color: white;
-    background-color: rgba(158, 158, 56, 0.733);
+    background-color: rgba(6, 58, 65, 0.747);
 }
 .newlife-container div h4{
     color: rgba(158, 158, 56, 0.733);
@@ -349,12 +349,12 @@ button{
 }
 .suggestions h3{
     margin-bottom: 10px;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 .suggestions h4{
     width: 70px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgba(158, 158, 56, 0.733);
+    border-bottom: 2px solid rgba(6, 58, 65, 0.747);
 }
 .suggestions .suggestions-container form div{
     display: grid;
@@ -368,7 +368,7 @@ button{
     width: 100%;
     border-radius: 5px;
     font-family: 'SulphurPoint-Light';
-    box-shadow: 0px 0px 2px 0px rgba(158, 158, 56, 0.733);
+    box-shadow: 0px 0px 2px 0px rgba(6, 58, 65, 0.747);
 }
 .suggestions .suggestions-container form textarea{
     width: 100%;
@@ -376,7 +376,7 @@ button{
     border: none;
     outline: none;
     padding: 10px;
-    box-shadow: 0px 0px 2px 0px rgba(158, 158, 56, 0.733);
+    box-shadow: 0px 0px 2px 0px rgba(6, 58, 65, 0.747);
     font-family: 'SulphurPoint-Light';
 }
 .suggestions .suggestions-container form button{
@@ -397,7 +397,7 @@ button{
     color: white;
     font-weight: bolder;
     font-size: 16px;
-    background-color: rgba(158, 158, 56, 0.733);
+    background-color: rgba(6, 58, 65, 0.747);
 }
 /********************FOOTER**********************/
 footer{
@@ -419,7 +419,7 @@ footer .footer-container .up div{
     gap: 10px;
 }
 footer .footer-container .up div i{
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
 }
 footer .footer-container .up p, footer .footer-container .up a{
     width: fit-content;
@@ -430,10 +430,10 @@ footer .footer-container .media i{
     cursor: pointer;
     border-radius: 50%;
     color: white;
-    background-color: rgba(158, 158, 56, 0.733);
+    background-color: rgba(6, 58, 65, 0.747);
 }
 footer .footer-container .media i:hover{
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
     background-color: white;
 }
 footer .author, footer .author a{
@@ -454,7 +454,7 @@ footer .top{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     gap: 5px;
-    color: rgba(158, 158, 56, 0.733);
+    color: rgba(6, 58, 65, 0.747);
     background-color: white;
 }
 /**********************************************/
