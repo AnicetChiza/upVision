@@ -1,0 +1,107 @@
+/********************header**********************/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    opacity: 0.9;
+    box-shadow: 0px 0.5px 0px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+header div p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #26735b;
+}
+header div .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    gap: 40px;
+    cursor: pointer;
+}
+header div .list li a:hover{
+    font-weight: bolder;
+    transition: 2s ease;
+    color: #26735b;
+}
+header div .list .accueil, header div .list .service{
+    color: black;
+    border-bottom: 2px solid #26735b;
+}
+.menu{
+    display: none;
+}
+.menu i{
+    cursor: pointer;
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgba(158, 158, 56, 0.267);
+}
+.menu-container{
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 60%;
+    height: 285px;
+    margin-right: 200%;
+    background-color: white;
+    transition: 0.9s ease-out;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.menu-container ul{
+    text-align: center;
+}
+.menu-container ul li{
+    padding: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.menu-container ul li a{
+    color: #26735b;
+}
+/**********************************************/
+/*****************MEDIA QUERY******************/
+/**********************************************/
+@media  screen and (max-width: 740px){
+    header div .list{
+        display: none;
+    }
+    .menu{
+        display: initial;
+    }
+    .menu-icons .icon{
+        display: block;
+    }
+    .menu-icons .exit{
+        display: none;
+    }
+    .menu-mobile .icon{
+        display: none;
+    }
+    .menu-mobile .exit{
+        display: initial;
+    }
+    .menu-mobile{
+        margin-right: 0;
+    }
+}
+@media  screen and (max-width: 420px){
+    .menu-container{
+        width: 70%;
+        top: 54px;
+    }
+    header div p{
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    header div ul{
+        padding-right: 5px;
+    }
+}
